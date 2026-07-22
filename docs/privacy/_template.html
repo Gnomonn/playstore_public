@@ -1,0 +1,67 @@
+<!doctype html>
+<!--
+  개인정보처리방침 템플릿 (GitHub Pages 서빙).
+  사용법: 이 파일을 docs/privacy/<app-slug>.html 로 복사 후 아래 {{...}} 를 교체.
+  공개 URL: https://gnomonn.github.io/superfast_app_making_public/privacy/<app-slug>.html
+  표준값: {{DEVELOPER}}=Gnomonn, {{EMAIL}}=gnomonn.lab@gmail.com (앱별로 바뀌지 않음).
+  ⚠️ 내용은 Play 콘솔 Data Safety 설문과 반드시 일치시킬 것 (규격 README §3.2).
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{APP_NAME}} — Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px;
+           font: 16px/1.6 -apple-system, system-ui, sans-serif; }
+    h1 { font-size: 1.8rem; margin-bottom: .2em; }
+    h2 { font-size: 1.2rem; margin-top: 1.8em; }
+    .muted { opacity: .7; font-size: .9rem; }
+    ul { padding-left: 1.2em; }
+    code { background: rgba(128,128,128,.15); padding: .1em .35em; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>{{APP_NAME}} — Privacy Policy</h1>
+  <p class="muted">Last updated: {{DATE}}</p>
+
+  <p>{{APP_NAME}} ("we", "the app") respects your privacy. This policy explains what
+  data the app handles and why. By using {{APP_NAME}} you agree to this policy.</p>
+
+  <h2>Who we are</h2>
+  <p>Developer: {{DEVELOPER}}. Contact: <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>.</p>
+
+  <h2>Data we collect</h2>
+  <ul>
+    {{DATA_COLLECTED}}
+  </ul>
+
+  <h2>Data we do NOT collect</h2>
+  <ul>
+    {{DATA_NOT_COLLECTED}}
+  </ul>
+
+  <h2>Advertising</h2>
+  <p>{{ADS_SECTION}}</p>
+
+  <h2>Third-party services</h2>
+  <ul>
+    {{THIRD_PARTIES}}
+  </ul>
+
+  <h2>Data retention & deletion</h2>
+  <p>{{RETENTION}}</p>
+
+  <h2>Children</h2>
+  <p>{{APP_NAME}} is not directed to children under 13. We do not knowingly collect
+  personal information from children.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>We may update this policy. Material changes will be reflected by the "Last updated"
+  date above.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or data requests: <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>.</p>
+</body>
+</html>
