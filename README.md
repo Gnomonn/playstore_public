@@ -13,3 +13,4 @@ Gnomonn 앱들의 **공개 정적 문서**(개인정보처리방침 등)를 GitH
 
 ## 현재 문서
 - Blurt: `docs/privacy/blurt.html`
+- Reading Minute (Clock & Words): `docs/privacy/reading-minute.html`
