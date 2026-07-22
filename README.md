@@ -9,7 +9,7 @@ Gnomonn 앱들의 **공개 정적 문서**(개인정보처리방침 등)를 GitH
 
 ## GitHub Pages
 - Settings → Pages → Source: `main` 브랜치 `/docs` 폴더.
-- 공개 URL: `https://gnomonn.github.io/superfast_app_making_public/privacy/<app-slug>.html`
+- 공개 URL: `https://gnomonn.github.io/playstore_public/privacy/<app-slug>.html`
 
 ## 현재 문서
 - Blurt: `docs/privacy/blurt.html`
