@@ -15,3 +15,4 @@ Gnomonn 앱들의 **공개 정적 문서**(개인정보처리방침 등)를 GitH
 - Blurt: `docs/privacy/blurt.html`
 - Reading Minute (Clock & Words): `docs/privacy/reading-minute.html`
 - Dynamic Chess: `docs/privacy/dynamic-chess.html`
+- Pawn Rush: `docs/privacy/pawn-rush.html`
