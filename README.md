@@ -6,13 +6,16 @@ Gnomonn 앱들의 **공개 정적 문서**(개인정보처리방침 등)를 GitH
 ## 구조
 - `docs/privacy/<app-slug>.html` — 앱별 개인정보처리방침
 - `docs/privacy/_template.html` — 새 앱용 템플릿
+- `docs/terms/<app-slug>.html` — 앱별 서비스 약관
 
 ## GitHub Pages
 - Settings → Pages → Source: `main` 브랜치 `/docs` 폴더.
 - 공개 URL: `https://gnomonn.github.io/playstore_public/privacy/<app-slug>.html`
+- 서비스 약관: `https://gnomonn.github.io/playstore_public/terms/<app-slug>.html`
 
 ## 현재 문서
 - Blurt: `docs/privacy/blurt.html`
 - Reading Minute (Clock & Words): `docs/privacy/reading-minute.html`
 - Dynamic Chess: `docs/privacy/dynamic-chess.html`
 - Pawn Rush: `docs/privacy/pawn-rush.html`
+- Hexa Tile Match 서비스 약관: `docs/terms/hexa-tile-match.html`
